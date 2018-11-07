@@ -1,0 +1,36 @@
+.content-page-name{
+	text-transform: uppercase;
+	font-family: Gsans-Bold;
+	color:#153641;
+	text-align: center;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: #D3D3D3;
+	font-size: 2.75em;
+	width: 100%;
+	
+	font-weight: bold;
+	
+	padding-bottom: 0.6em;
+
+}
+.team-content-pattern{
+	margin-left: 2em;
+	padding: 1.5em;
+	
+}
+.team-name{
+	font-family:"CertaSerifMediumItalic";
+	font-weight: bold;
+	color: #153641;
+	padding-bottom: 0.6em;
+ 	font-size: 1em;
+ 	text-transform: capitalize;
+}
+.team-achivements{
+	width: 80%;
+	color: #153641;
+	text-transform: uppercase;
+	font-family:"Calibri";
+	font-size: 0.8em;
+}

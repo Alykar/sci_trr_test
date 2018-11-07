@@ -1,0 +1,28 @@
+.content-layout{
+	padding: 1em;
+}
+.content-img{
+ 	width: 800px;
+ 	height: auto;
+}
+.content-title{
+	text-transform:uppercase;
+	font-size: 1em;
+	font-family: "Gsans-Bold";
+	color:#153641;
+	text-align: center;
+	padding-bottom: 0.6em;
+}
+.content-text{
+	white-space: pre-wrap;
+	padding: 0.8em;
+	padding-bottom: 1.5em;
+	padding-left: 2em;
+	padding-right: 2em;
+	font-family: "CertaSerifMediumItalic";
+	border-top: solid;
+	color:#153641;
+	border-color: #D3D3D3;
+	border-width: 1px;
+
+}

@@ -1,0 +1,97 @@
+.lk-linkbar{
+	width: 838px;
+	height: 50px;
+
+
+	background-color: #122d4f;
+}
+.lk-link{
+	border-left: solid;
+	border-color: white;
+	border-width: 1px;
+	padding-left: 3em;
+	padding-right: 3em;
+	text-decoration: none;
+	color: white;
+	line-height: 46px;
+	font-family: "Gsans-Bold";
+	font-size: 1em;
+}
+#nb{
+	border-left: none;
+}
+.subheader-pagename{
+	line-height: 48px;
+	font-size: 0.6em;
+}
+.dlayout{
+	border-bottom: solid;
+	border-color: #d3d3d3;
+	border-width: 1px;
+	padding-top: 1em;
+	width: 838px;
+	display: inline-block;
+	white-space: nowrap;
+}
+.datanames{
+	margin-left: 1em;
+	text-align: left;
+	display: inline-block;
+	align-content: top;
+	color: #122d4f;
+	font-family: "calibri";
+ 	width: 250px;
+ 	font-size: 0.8em;
+}
+.datavalue{
+	text-align: left;
+	display: inline-block;
+	align-content: left;
+	color: #122d4f;
+	font-family: "Gsans-Bold";
+ 	font-size: 0.8em;
+}
+.errmess{
+	color: #122d4f;
+	text-align: center;
+	padding: 1em;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+.edit-button-block{
+	text-align: right;
+	padding: 1em;
+}
+.edit-button{
+	text-decoration: none;
+	
+	font-size: 0.8em;
+	color: #122d4f;
+	font-family: "calibri";
+	
+}
+.edit-img{
+	width: 1.2em;
+}
+.addbutton{
+	text-align: center;
+	padding-top: 3em;
+	padding-left: 1em;
+	text-align: left;
+	display: inline-block;
+	align-content: left;
+	color: #122d4f;
+	font-family: "Gsans-Bold";
+ 	font-size: 1em;
+}
+.roundbutton{
+	border-radius: 50%;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	background-color: #122d4f;
+	width: 25px;
+	height: 25px;
+}

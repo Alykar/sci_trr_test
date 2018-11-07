@@ -1,0 +1,240 @@
+ @font-face {
+    font-family: Gsans;
+    src: url(fonts/GoshaSans-Regular.otf); 
+ }
+ @font-face {
+    font-family: Gsans-Bold;
+    src: url(fonts/GoshaSans-Bold.otf); 
+ }
+ @font-face {
+    font-family: Hack-Bold;
+    src: url(fonts/Hack-Bold.otf); 
+ }
+ @font-face {
+    font-family: Hack-Regular;
+    src: url(fonts/Hack-Regular.otf); 
+ }
+ @font-face {
+    font-family: CertaSerifMediumItalic;
+    src: url(fonts/CertaSerifMediumItalic.otf); 
+ }
+
+.main{
+	font-family: sans-serif;
+	width: 1133px;
+ 	margin:0 auto;
+}
+.header{
+	width: 1133px;
+	margin:0 auto;
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+.header-top{
+	width: 1133px;
+	margin-top: -60px;
+	position: fixed;
+	background-color: white;
+	padding-bottom: 5px;
+	white-space: nowrap;
+}
+.header-logo{
+	width: 400px;
+	color: #153641;
+	font-family: "Gsans-Bold";
+	font-color:#153641;
+ 	font-size: 36px;
+}
+.header-postscript{
+	width: 300px;
+	margin-left: 8px;
+	color: gray;
+ 	font-size: 12px;
+}
+#noborder{
+	margin-left: 75px;
+	padding-left: 0px;
+	border-left: none;
+}
+
+.header-button{
+	border-left: solid;
+	border-left-color: #858fa2;
+	border-left-width: 1px;
+	padding-left: 25px;
+	padding-right: 25px;
+	display: inline-block;
+	color: #153641;
+	text-decoration: none;
+	font-family: "calibri";
+	font-size: 75%;
+}
+
+
+.header-subheader{
+	margin-top: 70px;
+	width: 1133px;
+}
+.subheader-reg-button{
+	
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 18px;
+}
+.subheader-left{
+	height: 50px;
+	width: 270px;
+	float: left;
+	text-align: center;
+	line-height: 45px;
+	border-right: solid;
+	border-right-color: white;
+	border-right-width: 25px;
+	background-color: #122d4f;
+}
+.subheader-center{
+
+	font-family:"gsans";
+	color: white;
+	font-size: 175%;
+	padding-left: 350px;
+	border-color: white;
+	border-left: 25px;
+	height: 50px;
+	background-color: #125186;
+	
+	text-transform:uppercase;
+
+}
+.subheader-pagename{
+	line-height: 46px;
+}
+
+.subheader-slash{
+	background-color: white;
+	float: right;
+	position:relative;
+	left: -45%;
+	top:-30px;
+	
+	width:65px;
+	height:10px;
+	-moz-transform:rotate(-60deg); /* Для Firefox */
+	-ms-transform: rotate(-60deg); /* Для IE */
+	-webkit-transform: rotate(-60deg); /* Для Safari, Chrome, iOS */
+	-o-transform: rotate(-60deg); /* Для Opera */
+	 transform: rotate(-60deg);
+}
+
+.main-body{
+
+	margin-bottom: 30px;
+	border-bottom: solid white;
+	white-space: nowrap;
+	
+}
+.page-content{
+	white-space: normal;
+	display: inline-block;
+	width: 73%;
+}
+.sidebar{
+	width: 270px;
+	float: left;
+	height: 1500px;
+	border-right: solid;
+	border-right-color: white;
+	border-right-width: 25px;
+	background-color: #122d4f;
+}
+.sidebar-batton-link{
+	text-decoration: none;
+	color: white;
+}
+.sidebar-batton{
+	padding: 20px;
+	padding-bottom: 0px;
+	color: white;
+	height: 50px;
+	line-height: 30px;
+	font-size: 14px;
+}
+.sidebar-batton-icon{
+	font-size: 14px;
+	margin-right: 10px;
+	float: left;
+	height: 25px;
+	width: 25px;
+	border: solid;
+	border-color: white;
+	border-width: 2px;
+	border-radius: 25px;
+	text-align: center;
+	line-height: 25px;
+	color: white;
+}
+.sidebar-magazine-batton{
+
+}
+.magazine-batton-picture{
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-bottom: 10px;
+	background-color: gray;
+	height: 270px;
+	width: 74%;
+}
+.magazine-batton-title{
+	white-space:normal;
+	text-transform:uppercase;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 15px;
+	text-align: center;
+	margin-right: 8%;
+	margin-left: 8%;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+
+
+.content-news-block{
+		border-top: solid;
+	border-color: #D3D3D3;
+	border-width: 1px;
+
+	padding: 1em;
+	padding-left: 2em;
+	min-height: 50px;
+	font-family: "Calibri";
+	color: #153641;
+	font-weight: bold;
+}
+.news-block-content{
+	
+}
+
+.news{
+	text-decoration: none;
+	color: #153641;
+	font-family: "Calibri";
+	font-weight: normal;
+	overflow-x: hidden;
+	vertical-align:  top;
+	height: 320px;
+	width: 30%;
+	
+	margin-top: 2em;
+	margin-right: 1em;
+	display: inline-block;
+	
+}
+.news-img{
+	/*3:2*/
+	border: solid gray 1px;
+	width: 240px;
+	height: 160px;
+	display: inline-block;
+}

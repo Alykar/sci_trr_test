@@ -1,0 +1,26 @@
+.content-filler{
+	min-height: 30px;
+}
+.content-main-info{
+	padding: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	
+	font-family: "CertaSerifMediumItalic";
+	color: #153641;
+	border-top: solid;
+	border-color: #D3D3D3;
+	border-width: 1px;
+}
+.content-registration-data{
+	padding: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	min-height: 50px;
+	font-family: "CertaSerifMediumItalic";
+	color: #153641;
+	border-top: solid;
+	border-color: #D3D3D3;
+	border-width: 1px;
+
+}
